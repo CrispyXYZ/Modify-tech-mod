@@ -1,0 +1,11 @@
+[{
+    "name": "Destroyer",
+    "unitType": "WaterMelee",
+    "movement": 6,
+    "strength": 55,
+    "interceptRange": 2,
+    "cost": 375,
+    "requiredTech": "Electronics",
+    "uniques": ["Can attack submarines", "[40]% chance to intercept air attacks", "May withdraw before melee"], // todo: add bonus vs submarines
+    "hurryCostModifier": 20
+}]
