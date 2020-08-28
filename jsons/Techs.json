@@ -245,18 +245,6 @@
 	},
 	{
 		"columnNumber": 7,
-		"era": "Medieval era",
-		"techs":[
-			{
-				"name": "Observatory",
-				"row": 2,
-				"prerequisites": ["Education"],
-				"quote": "'Joyfully to the breeze royal Odysseus spread his sail, and with his rudder skillfully he steered.' - Homer"
-			}
-		]
-	},
-	{
-		"columnNumber": 8,
 		"era": "Renaissance era",
 		"techCost": 780, 
 		"buildingCost": 250,
@@ -296,6 +284,18 @@
 		]	
 	},
 	{
+		"columnNumber": 8,
+		"era": "Medieval era",
+		"techs":[
+			{
+				"name": "Observatory",
+				"row": 2,
+				"prerequisites": ["Education","Astronomy"],
+				"quote": "'Joyfully to the breeze royal Odysseus spread his sail, and with his rudder skillfully he steered.' - Homer"
+			}
+		]
+	},
+	{
 		"columnNumber": 9,
 		"era": "Renaissance era",
 		"techCost": 1150, 
@@ -305,7 +305,7 @@
 			{
 				"name": "Navigation",
 				"row": 1,
-				"prerequisites": ["Astronomy"],
+				"prerequisites": ["AstronomyAcoustics"],
 				"quote": "'The winds and the waves are always on the side of the ablest navigators.' - Edward Gibbon"
 			},
 			{
@@ -344,6 +344,7 @@
 			{
 				"name": "Archaeology",
 				"row": 3,
+				"prerequisites": ["Acoustics"]
 				"quote": "'Those who cannot remember the past are condemned to repeat it.' - George Santayana"
 			},
 			{
