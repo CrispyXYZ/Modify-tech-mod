@@ -305,7 +305,7 @@
 			{
 				"name": "Navigation",
 				"row": 1,
-				"prerequisites": ["AstronomyAcoustics"],
+				"prerequisites": ["Astronomy"],
 				"quote": "'The winds and the waves are always on the side of the ablest navigators.' - Edward Gibbon"
 			},
 			{
