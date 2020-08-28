@@ -285,7 +285,7 @@
 	},
 	{
 		"columnNumber": 8,
-		"era": "Medieval era",
+		"era": "Renaissance era",
 		"techs":[
 			{
 				"name": "Observatory",
@@ -344,7 +344,7 @@
 			{
 				"name": "Archaeology",
 				"row": 3,
-				"prerequisites": ["Acoustics"]
+				"prerequisites": ["Acoustics"],
 				"quote": "'Those who cannot remember the past are condemned to repeat it.' - George Santayana"
 			},
 			{
